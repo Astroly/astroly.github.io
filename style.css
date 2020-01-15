@@ -1,0 +1,40 @@
+ * {
+
+    padding: 0;
+    box-sizing: border-box;
+    align-self: center;
+ 
+
+
+  } 
+  body{
+    background: #170C04 ;
+    margin: 10;
+    padding: 50;
+    text-rendering: optimizeLegibility;
+    
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    }
+    img {
+        border-radius: 50%;
+        margin: 20px auto 20px;
+       
+        display: block;
+        position: relative;
+        align-self: center;
+      }
+    
+  
+    blockquote{
+        display: block;
+        padding: 20px;
+        /* margin: 10px auto 2px; */
+        margin-left: initial;
+        text-align: center;
+        
+        /* margin: 25px auto 50px; */
+        /* padding: 25px auto 50px; */
+        color:rgb(28, 228, 211)
+    }  
