@@ -9,7 +9,10 @@ function myFunction() {
 }
 function myFunction(x) {
     x.classList.toggle("change");
-    
+    //  document.getElementById("img01").src = element.src;
+   // document.getElementById("modal01").style.display = "block";
+    // var captionText = document.getElementById("caption");
+    // captionText.innerHTML = element.alt;
   }
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
@@ -21,8 +24,5 @@ function toggleFunction() {
     }
 }
 function onClick(element) {
-    document.getElementById("img01").src = element.src;
-    document.getElementById("modal01").style.display = "block";
-    var captionText = document.getElementById("caption");
-    captionText.innerHTML = element.alt;
+  
   }
