@@ -8,9 +8,7 @@
 
 } 
 body{
-  background-color: #222222;
-  background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
-  /* background: #ffffff   ; */
+ 
   margin: 10;
   padding: 50;
   text-rendering: optimizeLegibility;
@@ -37,7 +35,7 @@ body{
       /* position: relative; */
       align-self: center;
     }
-    .glow {
+    /* .glow {
       font-size: 25px;
       color: #fff;
       text-align: center;
@@ -45,11 +43,11 @@ body{
       -webkit-animation: glow 1.5s ease-in-out infinite alternate;
       -moz-animation: glow 1.5s ease-in-out infinite alternate;
       animation: glow 1.5s ease-in-out infinite alternate;
-    }
+    } */
        .container {
       display: inline-block;
       cursor: pointer;
-      color: #fff;
+      color: #0000;
       text-align: center;
     
     }
@@ -57,9 +55,6 @@ body{
       width: 20px;
       height: 5px;
       background-color: #fcf4f4;
-      -webkit-animation: glow 1.5s ease-in-out infinite alternate;
-      -moz-animation: glow 1.5s ease-in-out infinite alternate;
-      animation: glow 1.5s ease-in-out infinite alternate;
       margin: 6px ;
       margin-right: auto;
       transition: 0.2s;
@@ -76,12 +71,6 @@ body{
       -webkit-transform: rotate(45deg) translate(-8px, -8px);
       transform: rotate(45deg) translate(-8px, -8px);
     }
-    @-webkit-keyframes glow{
-      from {
-        text-shadow: 0 0 10px rgb(243, 148, 227), 0 0 20px rgb(240, 137, 217), 0 0 30px ;
-      }
-      to {
-        text-shadow: 0 0 20px rgb(236, 68, 146), 0 0 30px #ff4da6;
-      }
-    }
+    
+    
     
