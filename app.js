@@ -1,5 +1,5 @@
-window.onscroll = function() {myFunction()};
-function myFunction() {
+window.onscroll = function() {nav()};
+function nav() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
@@ -7,7 +7,7 @@ function myFunction() {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white");
     }
 }
-function myFunction(x) {
+function nav(x) {
     x.classList.toggle("change");
     //  document.getElementById("img01").src = element.src;
    // document.getElementById("modal01").style.display = "block";
