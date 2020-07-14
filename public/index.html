@@ -14,10 +14,34 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body style="background-color: #6b66666c;">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAZV5ZfMn4gUP4CehklKfo_AIrF-PIWCvg",
+    authDomain: "astroly-nitipon.firebaseapp.com",
+    databaseURL: "https://astroly-nitipon.firebaseio.com",
+    projectId: "astroly-nitipon",
+    storageBucket: "astroly-nitipon.appspot.com",
+    messagingSenderId: "116701167575",
+    appId: "1:116701167575:web:93db48fb346e597bf41592",
+    measurementId: "G-5EFHP4KEWT"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app" ></div>
     <!-- built files will be auto injected -->
   </body>
+
 </html>
